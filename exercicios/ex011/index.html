@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTMLS</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente
+        aumente e diminua o tamanho do seu navegador
+    </p>
+
+    <picture>
+<source media="(max-width: 750px )" srcset="imagens/pequeno.png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Audios em HTML</p>
+    <audio src="media/trilha sonora.mp3" controls="controls" autoplay></audio>
+    <!-- MP3 WAVE OGG-->
+    
+    <audio>
+        <source src="media/trilha sonora.mp3" type="audio/mpeg">
+        <source src="media/trilha sonora.mp3" type="audio/ogg">
+        <source src="media/trilha sonora.mp3" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir audio.
+         <a href="media/trilha sonora.mp3"></a></p>
+    </audio>
+</body>
+</html>
