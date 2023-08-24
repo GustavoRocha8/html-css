@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - Tabela</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+         }
+
+         table {
+            border-collapse: separate;
+            width: 600px;
+            height: 500px;
+            
+
+         }
+         
+         td {
+            padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+         }
+
+         td.amarelo:hover {
+            background-color: yellow;
+         }
+
+         td.vermelho:hover {
+            background-color: red;
+         }
+         
+         td.verde:hover {
+            background-color: green;
+         }
+
+
+
+
+    
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4" >C</td>
+            <td class="amarelo">D</td>
+            <td class="amarelo">E</td>
+            <td class="amarelo">F</td>
+        
+        </tr>
+        <tr>
+            <td class="vermelho">G</td>
+            <td class="vermelho">H</td>
+            <td class="vermelho">I</td>
+    
+        </tr>
+        <tr>
+            <td class="verde">J</td>
+            <td class="verde">L</td>
+            <td class="verde">M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+    
+
+    </table>
+</body>
+</html>
