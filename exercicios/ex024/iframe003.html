@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: rgb(17, 85, 62);
+            text-align: center; 
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        li > a {
+            color: rgb(21, 58, 45);
+            text-decoration: solid;
+        }
+
+        a:hover {
+            color: rgb(12, 197, 135);
+            text-decoration: underline;
+        }
+
+        iframe#tela {
+            width: 60vw;
+            height: 500px;
+            margin: 3px;
+            border: 2px solid rgb(44, 40, 40);
+        }
+
+        iframe#imagemgrande {
+            width: 50vw;
+            height: 600px;
+            border: 2px solid black;
+        }
+
+
+      
+
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, inventore repellendus. Corrupti quasi repellat ducimus labore explicabo esse voluptatibus atque porro, perferendis minus assumenda incidunt delectus, distinctio facilis illum. Laboriosam.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus exercitationem minima assumenda distinctio deserunt voluptas quaerat, numquam fugit ea reprehenderit tempora corporis, obcaecati officia, harum soluta incidunt dolore! Quaerat!
+
+    </p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li id="imagemgrande"><a href="paginas-extras/imagem001.jpg" target="imagem">Terceira página</a></li>
+    </ul>
+
+
+
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur deleniti asperiores ea cumque voluptatum iste laboriosam ad. Dolorum minus ad laborum vero voluptate animi veniam quidem maxime, temporibus commodi unde!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ducimus nulla suscipit sunt saepe autem officia, adipisci quod facilis dolore veritatis, fuga maiores laboriosam in voluptatibus, voluptates vel sed id.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam saepe maiores. Saepe enim molestias rerum ipsam quidem. Consectetur libero amet laborum et expedita laudantium odio nostrum dignissimos esse? Obcaecati?
+    </p>
+
+    <iframe id="tela" name="frame" src="paginas-extras/imagem001.jpg" frameborder="0">
+        <p>Infelizmente seu navegador não é compativel com seu navegador</p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere similique nostrum, magnam consectetur, consequatur saepe illum dolor quas, voluptas fugiat vitae fugit ipsam! Aperiam voluptatem quisquam accusantium suscipit impedit reprehenderit!
+    </p>
+
+    <iframe id="imagemgrande" name="imagem" frameborder="0">
+
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur deleniti asperiores ea cumque voluptatum iste laboriosam ad. Dolorum minus ad laborum vero voluptate animi veniam quidem maxime, temporibus commodi unde!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ducimus nulla suscipit sunt saepe autem officia, adipisci quod facilis dolore veritatis, fuga maiores laboriosam in voluptatibus, voluptates vel sed id.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam saepe maiores. Saepe enim molestias rerum ipsam quidem. Consectetur libero amet laborum et expedita laudantium odio nostrum dignissimos esse? Obcaecati?
+    </p>
+    
+</body>
+</html>
