@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    h1 {
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+    }
+</style>
+<body>
+    <h1>Primeiro formulário</h1>
+    <form action="cadastro.php" method="POST" autocomplete="off">
+        <p>
+            <label for="iusu">Nome:</label> 
+            <input type="text" name="usu" id="iusu" required minlength="5"
+            maxlength="15">
+        </p>
+        <p>
+            <label for="isen">Sobrenome:</label> 
+            <input type="password" name="sen" id="isen" required minlength="6"
+            maxlength="10">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    
+</body>
+</html>
